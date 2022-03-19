@@ -96,6 +96,7 @@ This repo provides step-by-step instructions to install WKC on top of IBM Cloud 
 
         oc label machineconfigpool worker db2u-kubelet=sysctl
  - Wait for the cluster to restart and then run the following command to verify that the machineconfigpool is updated:
+        
         oc get machineconfigpool
     The command should return output with the following format:
     
