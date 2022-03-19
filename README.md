@@ -73,7 +73,7 @@ This repo provides step-by-step instructions to install WKC on top of IBM Cloud 
 # CRI-O Container Settings
  - Copy machineconfig.yaml to /tmp directory
 
-        cp machineconfig.yaml /tmp/
+        cp crio.conf /tmp/
 
  - Login to Red Hat openshift in command line. Use cloned machineconfig object YAML file, as follows, and apply it.
     Note: If you are using Cloud Pak for Data on OpenShift Container Platform version 4.6, the ignition version is 3.1.0. If you are using Cloud Pak for Data on           OpenShift Container Platform version 4.8, change the ignition version to 3.2.0.
